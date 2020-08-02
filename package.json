@@ -1,0 +1,25 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "basic tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabellanosa/mongodbBasics.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Angel Abellanosa <auabellanosa@gmail.com> (https://devhelp.xyz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aabellanosa/mongodbBasics/issues"
+  },
+  "homepage": "https://github.com/aabellanosa/mongodbBasics#readme",
+  "dependencies": {
+    "mongoose": "^5.9.27"
+  }
+}
