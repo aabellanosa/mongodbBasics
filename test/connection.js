@@ -6,6 +6,7 @@ before(function (done) {
   mongoose.connect("mongodb://localhost/testaroo", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useFindAndModify: false,
   });
 
   //listen to when it establishes connection

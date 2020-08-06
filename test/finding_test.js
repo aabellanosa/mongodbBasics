@@ -11,7 +11,6 @@ describe("Finding records", function () {
       name: "Mario1",
     });
     char.save().then(function () {
-      console.log("done saving a record");
       done();
     });
   });
